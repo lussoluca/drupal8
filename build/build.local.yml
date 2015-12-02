@@ -1,0 +1,15 @@
+env: local
+domain: 'http://d8'
+db:
+  url: 'root:root@localhost:3306/drupal8'
+site:
+  mail: lussoluca@gmail.com
+  name: 'Drupal 8 test site'
+  locale: en
+  profile: standard
+account:
+  mail: lussoluca@gmail.com
+  name: admin
+  pass: admin
+drush: drush
+environment_modules: devel webprofiler config views_ui field_ui dblog
